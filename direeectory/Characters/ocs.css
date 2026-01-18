@@ -1,0 +1,59 @@
+@font-face {
+    font-family: Garet-Book;
+    src: url(/direeectory/fonts/Garet-Book.ttf);
+}
+
+h1 {
+    font-size: 64px;
+    text-align: center;
+}
+
+.lets{
+    background-color: rgb(58, 193, 150);
+    color: black;
+    font-family: Garet-Book;
+    margin: auto;
+    padding: 12px;
+}
+
+.take {
+    float: left;
+    width: 340px;
+    border: 3px;
+    border-style: solid;
+}
+
+.aaa {
+    float: right;
+    border: 3px;
+    border-style: solid;
+    font-size: 16px;
+    margin: 4px;
+    padding: 6px;
+    background-color: rgba(255, 255, 255, 0.34);
+}
+
+.look {
+    padding-left: 8.25%;
+    padding-right: 8.25%;
+}
+
+hr {
+    border-color: black;
+}
+
+.goback {
+    border: 4px solid;
+    width: auto;
+    margin: auto;
+    padding: 6px;
+    display: inline;
+    font-size: 24px;
+    background-color: rgba(255, 255, 255, 0.342);
+    color: white;
+    text-decoration: none;
+}
+
+.goback:hover {
+    filter: invert(1);
+}

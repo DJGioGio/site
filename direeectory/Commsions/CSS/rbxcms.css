@@ -1,0 +1,47 @@
+.fuck {
+    background-color: rgb(2, 38, 2);
+    text-align: center;
+    color: white;
+    font-family: Franklin Gothic Medium;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.boob {
+    border: 6px;
+    border-style: solid;
+    margin: 12px;
+    padding: 16px;
+    background-color: rgba(255, 255, 255, 0.129);
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+a {
+    font-size: 20px;
+}
+
+.button {
+    border: 4px;
+    border-style: solid;
+    padding: 12px;
+    background-color: rgba(255, 255, 255, 0.151);
+    transition: 0.5s;
+}
+
+.button:hover {
+    background-color: rgba(255, 255, 255, 0.329);
+    padding: 16px;
+    font-size: 24.5px;
+    border-radius: 12px;
+}
+
+.imagesss {
+    width: 450px;
+    border: 3px;
+    border-style: solid;
+    margin: auto;
+    display: flex;
+}

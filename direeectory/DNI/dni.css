@@ -1,0 +1,30 @@
+.main {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: butler_regular;
+}
+
+h1 {
+    font-size: 52px;
+}
+
+p {
+    font-size: 18px;
+}
+
+@font-face {
+    font-family: butler_regular;
+    src: url(/direeectory/fonts/Butler_Regular.otf);
+}
+
+.goback {
+    text-align: left;
+}
+
+.gobacklink {
+text-decoration: none;
+color: white;
+font-size: 28px;
+padding-left: 64px;
+}

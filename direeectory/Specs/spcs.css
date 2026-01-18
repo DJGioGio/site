@@ -1,0 +1,132 @@
+.ok {
+    background: #003e4f;
+    background: linear-gradient(180deg, rgba(0, 62, 79, 1) 0%, rgba(0, 20, 87, 1) 100%);
+    text-align: center;
+    color: white;
+    font-family: CreatoDisplay;
+}
+
+@font-face {
+    font-family: CreatoDisplay;
+    src: url(/Index/fonts/CreatoDisplay-Regular.otf);
+}
+
+h1 {
+    font-size: 64px;
+}
+
+.letterd {
+    letter-spacing: 10px;
+    animation: intro1 0.75s cubic-bezier(0.33, 1, 0.68, 1);
+}
+
+@keyframes intro1 {
+    0% {letter-spacing: -10px;}
+    100% {letter-spacing: 10px;}
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.button {
+    border: 2px;
+    border-style: solid;
+    padding: 12px;
+    background-color: black;
+    animation: animationess 4s infinite;
+}
+
+@keyframes animationess {
+    0% {
+    padding-left: 16px;
+    padding-right: 19px;
+    padding-bottom: 21px;
+    padding-top: 23px;
+    }
+
+    10% {
+    padding-left: 20px;
+    padding-right: 16px;
+    padding-bottom: 14px;
+    padding-top: 17px;
+    }
+
+    20% {
+    padding-left: 12px;
+    padding-right: 21px;
+    padding-bottom: 20px;
+    padding-top: 19px;
+    }
+
+    30% {
+    padding-left: 16px;
+    padding-right: 19px;
+    padding-bottom: 32px;
+    padding-top: 26px;
+    }
+
+    40% {
+    padding-left: 26px;
+    padding-right: 35px;
+    padding-bottom: 16px;
+    padding-top: 11px;
+    }
+
+    50% {
+    padding-left: 66px;
+    padding-right: 18px;
+    padding-bottom: 26px;
+    padding-top: 5px;
+    }
+
+    60% {
+    padding-left: 11px;
+    padding-right: 66px;
+    padding-bottom: 35px;
+    padding-top: 8px;
+    }
+
+    70% {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    }
+
+    80% {
+    padding-left: 2px;
+    padding-right: 4px;
+    padding-bottom: 6px;
+    padding-top: 8px;
+    }
+
+    90% {
+    padding-left: 8px;
+    padding-right: 6px;
+    padding-bottom: 4px;
+    padding-top: 2px;
+    }
+
+    100% {
+    padding-left: 16px;
+    padding-right: 19px;
+    padding-bottom: 21px;
+    padding-top: 23px;
+    }
+}
+
+.button:hover {
+    animation-play-state: paused;
+}
+
+.box1 {
+    border: 4px;
+    border-style: solid;
+    padding-left: 24px;
+    padding-right: 24px;
+    background-color: rgba(0, 0, 0, 0.415);
+    text-align: left;
+    margin: 12px;
+}

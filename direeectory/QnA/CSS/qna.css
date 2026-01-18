@@ -1,0 +1,59 @@
+.escape {
+    background: linear-gradient(0deg,rgb(12, 1, 27) 0%, rgb(2, 36, 75) 100%); transform: rotate(0deg);
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.escape2 {
+    background: linear-gradient(0deg,rgb(27, 1, 25) 0%, rgb(101, 5, 103) 100%); transform: rotate(0deg);
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.bigtext {
+    font-size: 64px;
+}
+
+.boxbutton {
+    border-style: solid;
+    font-size: 36px;
+    text-decoration: none;
+    padding: 6px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.308);
+    transition: 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.boxbutton:hover {
+    padding: 8px;
+    background-color: rgba(0, 47, 255, 0.301);
+    font-size: 42px;
+}
+
+.openingscene {
+    animation: startup1 0.8s cubic-bezier(0.33, 1, 0.68, 1);
+    border: 2px;
+    border-style: solid;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgba(120, 141, 255, 0.281);
+}
+
+@keyframes startup1 {
+    0% {transform: scaleY(0); font-size: 4px;}
+    25% {transform: scaleY(0); font-size: 4.25px;}
+    100% {transform: scaleY(1);}
+}
+
+.swag {
+    transform: scale(0.8);
+    animation: swag1 0.7s infinite;
+}
+
+@keyframes swag1 {
+    0% {transform: scaleX(0.8) rotateZ(-5deg);}
+    50% {transform: scaleX(1) rotateZ(5deg);}
+    100% {transform: scaleX(0.8) rotateZ(-5deg);}
+}
