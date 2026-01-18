@@ -1,0 +1,114 @@
+.one {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Arial;
+
+}
+
+.hovering1 {
+    transform: scale(1);
+    transition: 0.4s ease-out;
+    margin:auto;
+    padding: 50px;
+    max-width:min-content;
+}
+
+.hovering1:hover {
+    transform: scale(0.95) rotateZ(2deg);
+}
+
+.woah1 {
+    display: inline-block ;
+    font-size: 16px;
+
+    animation-duration: 5s;
+    animation-name: dancing1;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.65, 0, 0.35, 1);
+}
+
+@keyframes dancing1 {
+    0% {transform: scaleX(1);}
+    50% {transform: scaleX(1.025);}
+    100% {transform: scale(1);}
+}
+
+hr {
+    transform: scaleX(1);
+    animation: fade-in 1s ease-in;
+}
+
+@keyframes fade-in {
+    0% {transform: scaleX(0);}
+    100% {transform: scaleX(1);}
+}
+
+.beginning {
+    border: 4px solid white;
+    margin-left: 6.5%;
+    margin-right: 6.5%;
+    padding-left: 18px;
+    padding-right: 18px;
+    background-color: rgba(255, 255, 255, 0.123);
+    transition: 0.42s;
+    animation: startup 1.5s cubic-bezier(0.33, 1, 0.68, 1);
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.beginning:hover {
+    background-color: rgba(0, 255, 0, 0.2);
+    transform: scale(1.001);
+    border-radius: 6px;
+}
+
+@keyframes startup {
+    0% {transform: scaleX(0%) scaleY(100%); font-size: 1px; letter-spacing: 100px; font-family: monospace; filter: invert(1);}
+    45% {transform: scaleX(0%) scaleY(100%); font-size: 6px; letter-spacing: 10px; font-family:'Gill Sans'; filter: invert(2);}
+    100% {transform: scaleX(100%) scaleY(100%); letter-spacing: 0px;}
+}
+
+.filter {
+    animation: welcome 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@keyframes welcome {
+    0% {filter: blur(10px); transform: scale(0.5);}
+    100% {filter: blur(0px); transform: scale(1);}
+}
+
+.DIRbox1 {
+    border: 3px white solid;
+    font-size: 48px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    max-width: max-content;
+    display: flex;
+    margin: auto;
+    background-color: rgb(1, 56, 104);
+}
+
+.DIRboxHover {
+    transform: scale(1);
+    transition: 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.DIRboxHover:hover {
+    transform: scale(1.06);
+    background-color: rgba(0, 136, 0, 0.2);
+    border-radius: 6px;
+}
+
+.socialmedia {
+    width: 84px;
+    display:inline-flex;
+    padding: 16px;
+    transition: 0.15s;
+}
+
+.socialmedia:hover {
+    filter: invert(1) blur(1px);
+}

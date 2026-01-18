@@ -1,0 +1,78 @@
+.one {
+
+    background: #00913c;
+    background: linear-gradient(180deg, rgba(0, 145, 60, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    color: white;
+    font-family: Garet-Book;
+    text-align: center;
+
+}
+
+@font-face {
+    font-family: Garet-Book;
+    src: url(/Index/fonts/Garet-Book.ttf);
+}
+
+@font-face {
+    font-family: Garet-Heavy;
+    src: url(/Index/fonts/Garet-Heavy.ttf);
+}
+
+h1 {
+    font-size: 64px;
+}
+
+.box1 {
+    border: 5px;
+    border-style: solid;
+    margin: 4px;
+    padding: 12px;
+    margin-left: 8%;
+    margin-right: 8%;
+    background-color: rgba(5, 29, 100, 0.276);
+}
+
+.button {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    border: 4px;
+    border-style: solid;
+    margin: 6px;
+    padding: 12px;
+    background-color: rgba(0, 0, 0, 0.434);
+    transition: 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.button:hover {
+    padding: 24px;
+    font-size: 28px;
+}
+
+.startup {
+    animation: fadeoutblur 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+@keyframes fadeoutblur {
+    0% {filter: blur(15px);
+    transform: scale(0.5);}
+    100% {filter: blur(0px);
+    transform: scale(1);}
+}
+
+.squish {
+    animation: whop 1.4s cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+
+@keyframes whop {
+    0% {transform: scaleX(0) scaleY(0);}
+    50% {transform: scaleX(0.5) scaleY(0);}
+    100% {transform: scaleX(1);}
+}
+
+.bg {
+    background-color: rgba(0, 0, 0, 0.431);
+    border: 4px;
+    border-style: solid;
+    padding: 12px;
+}
